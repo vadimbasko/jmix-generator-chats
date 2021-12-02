@@ -4,7 +4,7 @@ import {addMenuItem, addAppMenu} from "@haulmont/jmix-front-generator/lib/buildi
 import {Options} from "./options";
 import {TemplateModel} from "./template-model";
 import {addComponentPreviews} from "@haulmont/jmix-front-generator/lib/building-blocks/stages/writing/pieces/previews-registration";
-import {YeomanGenerator} from "./common/YeomanGenerator";
+import {YeomanGenerator} from "@haulmont/jmix-front-generator/lib/building-blocks/YeomanGenerator";
 
 export const write: WriteStage<Options, TemplateModel> = async (
     projectModel, templateModel, gen, options

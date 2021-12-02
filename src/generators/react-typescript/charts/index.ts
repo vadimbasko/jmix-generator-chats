@@ -6,7 +6,7 @@ import {Options} from "./options";
 import {TemplateModel, deriveTemplateModel} from "./template-model";
 import {write} from "./write";
 import {ComponentOptions} from "@haulmont/jmix-front-generator/lib/building-blocks/stages/options/pieces/component";
-import {YeomanGenerator} from "./common/YeomanGenerator";
+import {YeomanGenerator} from "@haulmont/jmix-front-generator/lib/building-blocks/YeomanGenerator";
 
 export class ReactComponentGenerator extends YeomanGenerator {
 
