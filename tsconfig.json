@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "commonjs",
-    "outDir": "./lib",
+    "outDir": "./dist",
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
@@ -15,7 +15,7 @@
     "custom_types/**/*.ts"
   ],
   "exclude": [
-    "src/generators/*/*/template/**",
+    "src/*/*/template/**",
     "src/test/generated/**",
     "src/test/fixtures/**"
   ],

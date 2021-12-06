@@ -6,4 +6,4 @@ vfs.src([
   'src/**/template/.**',
   'src/**/info.json',
   'src/**/*.svg',
-]).pipe(vfs.dest('lib'));
+]).pipe(vfs.dest('dist'));
