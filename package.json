@@ -1,14 +1,11 @@
 {
-  "name": "jmix-generator-charts",
+  "name": "@haulmont/jmix-generator-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "example of creating custom jmix-frontend generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "bin": {
-    "gen-jmix-front": "bin/gen-jmix-front.js"
-  },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "scripts": {
     "build": "rimraf dist && tsc && tsc --project tsconfig.declarations.json && node scripts/copy-templates.js",
